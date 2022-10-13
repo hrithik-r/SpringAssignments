@@ -1,0 +1,15 @@
+Development steps for YONO Bank :
+---------------------------------
+1)	Create a Spring Boot app.
+2)	Setup port number, database connection and JPA hibernate in application.properties.
+3)	Test the connection.
+4)	Create packages -
+				com.nissan.model
+				com.nissan.repo
+				com.nissan.rest
+				com.nissan.service
+5)	Create class Bank.java under com.nissan.model
+6)	Create repo(Data Access Object) - IBankRepository (CRUD ops)
+7)	Create service(Business Logic Layer) - IBankService & BankServiceImpl
+8)	Create REST controller - set endpoints for CRUD ops.
+9)	Test endpoints through postman.
